@@ -21,6 +21,16 @@
             </a>
         </el-col>
     </el-row>
+    <h1>巨佬！！！</h1>
+        <el-row>
+        <el-col :span="12" class="tf-item" v-for="(item,index) in godlink" :key="'f'+index">
+            <a :href="item.url" target="_blank">
+                <img :src="item.image?item.image:'static/img/tou.jpg'"  :onerror="$store.state.errorImg">
+                <h4>{{item.name}}</h4>
+                <p>{{item.description}}</p>
+            </a>
+        </el-col>
+    </el-row>
 </div>
 </template>
 
@@ -29,7 +39,7 @@ import {FriendUrlData} from '../utils/server.js'
 export default {
     data() { //选项 / 数据
         return {
-            //友情链接
+            //好基友
             friendslink: [{
                 "url"           :"https://xulu.ltd/",
                 "image"         :"static/img/fLink_xunlu.jpg",
@@ -42,18 +52,32 @@ export default {
                 "name"          :"Luke",
                 "description"   :"前端能力超强的小哥哥~"
             }],
+            //小伙伴
             partnerslink:[{
-                "url"           :"https://corsun.xyz/",
+                "url"           :"https://lcwebsite.cn/",
                 "image"         :"https://q2.qlogo.cn/headimg_dl?dst_uin=1138779174&spec=5",
                 "name"          :"LC",
                 "description"   :"只有不断努力才能摆脱菜鸡等级，加油！"
             },
             {
-                "url"           :"https://lcwebsite.cn/",
+                "url"           :"https://corsun.xyz/",
                 "image"         :"https://q2.qlogo.cn/headimg_dl?dst_uin=443456429&spec=5",
                 "name"          :"CorsunChen",
                 "description"   :"这个人懒死了，什么也没留下来"
-            }]
+            }],
+            //大神
+             godlink: [{
+                "url"           :"https://overreacted.io/",
+                "image"         :"https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg",
+                "name"          :"Dan Abramov",
+                "description"   :"丹神！"
+            },
+            {
+                "url"           :"https://www.liaoxuefeng.com/",
+                "image"         :"https://tva2.sinaimg.cn/crop.0.1.635.635.180/62d8efadgw1ej30downrsj20hs0hq0ws.jpg?KID=imgbed,tva&Expires=1594271859&ssig=WPmKHx2S9X",
+                "name"          :"廖雪峰",
+                "description"   :"SQL/Java/JS入手"
+            }],
         }
     },
     methods: { //事件处理器

@@ -11,7 +11,7 @@
                 博客已萌萌哒运行<span v-html='longTime'>{{longTime}}</span><span class="timeJump">(●'◡'●)ﾉ♥</span>
             </p>
             <p>
-                托管于 <a href="https://github.com/Aimee1608/myblogvue" target="_blank">GitHub</a>.
+                托管于 <a href="https://github.com/YuelinWang/Myblog" target="_blank">GitHub</a>.
             </p>
             <p>
                 © 2020 <a href="#">YuelinWang</a>. 由 <a href="https://cn.vuejs.org/" target="_blank">Vue</a> 强力驱动. Theme By <a href="https://diygod.me/" target="_blank">diygod.me</a>.
