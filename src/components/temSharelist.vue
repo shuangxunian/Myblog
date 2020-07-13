@@ -1,6 +1,37 @@
 <!-- 文章列表 -->
 <template>
     <el-row class="sharelistBox">
+        <el-col :span="24" class="s-item tcommonBox">
+            <header>
+                <h1>
+                    <a target="_blank">
+                        热门文章！
+                    </a>
+                </h1>
+            </header>
+            <div class="article-content">
+                <p style="text-indent:2em;">
+                    <a href="https://mubu.com/doc/CAYihEYUS0" style="text-indent:15em;">git教程</a>
+                </p>
+                <hr>
+                <p style="text-indent:2em;">
+                    <a href="https://mubu.com/doc/a9YYeiV0Y0" style="text-indent:15em;">h5教程</a>
+                </p>
+                <hr>
+                <p style="text-indent:2em;">
+                    <a href="https://mubu.com/doc/5c3Q2AIhuTP" style="text-indent:15em;">c3教程</a>
+                </p>
+                <hr>
+                <p style="text-indent:2em;">
+                    <a href="https://mubu.com/doc/xGLYYDX2g0" style="text-indent:15em;">JavaScript教程</a>
+                </p>
+                <hr>
+                <p style="text-indent:2em;">
+                    <a href="https://mubu.com/doc/DMAXzFmpA3" style="text-indent:15em;">前端学习路线的一点心得</a>
+                </p>
+                <hr>
+            </div>
+        </el-col>
         <el-col :span="24" class="s-item tcommonBox" v-for="(item,index) in articleList" :key="'article'+index">
             <span class="s-round-date">
                 <span class="month" v-html="item.month +'月'"></span>
@@ -40,6 +71,38 @@
         data() { //选项 / 数据
             return {
                 articleList:[{
+                    url:"https://mubu.com/doc/2qhaTAKnanP",
+                    title:"你真的了解回调吗",
+                    month: 7,
+                    day: 13,
+                    cate_name:"技术文章",
+                    description:"整理的一篇关于回调的文章",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/UT8EkrfHDP",
+                    title:"回调地狱",
+                    month: 7,
+                    day: 13,
+                    cate_name:"技术文章",
+                    description:"欢迎来到地狱~",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/wL_2wnAxTP",
+                    title:"沈阳航空航天大学新生须知",
+                    month: 7,
+                    day: 12,
+                    cate_name:"其他",
+                    description:"欢迎新生！",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/UT8EkrfHDP",
+                    title:"ES6详解",
+                    month: 7,
+                    day: 10,
+                    cate_name:"技术文章",
+                    description:"持续更新，真的太难了嘤嘤嘤",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
                     url:"https://mubu.com/doc/12i79Sq9hmP",
                     title:"不会吧不会吧，不会现在还有人分不清 Cookie、Session、Token、JWT吧？",
                     month: 7,
@@ -78,6 +141,14 @@
                     day: 2,
                     cate_name:"面经",
                     description:"到处扒来的面经，可能有部分过时= =。",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/DMAXzFmpA3",
+                    title:"前端路线",
+                    month: 6,
+                    day: 10,
+                    cate_name:"技术文章",
+                    description:"冲鸭前端！如果你有好的路线欢迎邮件我~",
                     image:"https://13miki.cdn.bcebos.com/menhera%2F",
                 },{
                     url:"https://mubu.com/doc/2iVFrMbSAOP",
