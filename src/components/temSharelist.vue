@@ -4,34 +4,20 @@
         <el-col :span="24" class="s-item tcommonBox">
             <header>
                 <h1>
-                    <a target="_blank">
-                        热门文章！
-                    </a>
+                    热门文章！
                 </h1>
+                <h2>
+                    <a href="https://mubu.com/doc/gvqRIFiMDP" target="_blank">首次进站请点此</a>
+                </h2>
             </header>
             <div class="article-content">
                 <el-row>
                     <el-button type="primary" ><a href="https://mubu.com/doc/CAYihEYUS0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">git教程</a></el-button>
+                    <el-button type="primary" ><a href="https://mubu.com/doc/a9YYeiV0Y0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">h5教程</a></el-button>
+                    <el-button type="primary" ><a href="https://mubu.com/doc/5c3Q2AIhuTP" target="_blank" style="text-indent:15em;color:#FFF;" round="true">c3教程</a></el-button>
+                    <el-button type="primary" ><a href="https://mubu.com/doc/xGLYYDX2g0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">JS教程</a></el-button>
+                    <el-button type="primary" ><a href="https://mubu.com/doc/DMAXzFmpA3" target="_blank" style="text-indent:15em;color:#FFF;" round="true">前端学习路线</a></el-button>
                 </el-row>
-                <p style="text-indent:2em;">
-                    <a href="https://mubu.com/doc/CAYihEYUS0" target="_blank" style="text-indent:15em;color:#000;">git教程</a>
-                </p>
-                <hr>
-                <p style="text-indent:2em;">
-                    <a href="https://mubu.com/doc/a9YYeiV0Y0" target="_blank" style="text-indent:15em;">h5教程</a>
-                </p>
-                <hr>
-                <p style="text-indent:2em;">
-                    <a href="https://mubu.com/doc/5c3Q2AIhuTP" target="_blank" style="text-indent:15em;">c3教程</a>
-                </p>
-                <hr>
-                <p style="text-indent:2em;">
-                    <a href="https://mubu.com/doc/xGLYYDX2g0" target="_blank" style="text-indent:15em;">JavaScript教程</a>
-                </p>
-                <hr>
-                <p style="text-indent:2em;">
-                    <a href="https://mubu.com/doc/DMAXzFmpA3" target="_blank" style="text-indent:15em;">前端学习路线的一点心得</a>
-                </p>
                 <hr>
             </div>
         </el-col>
