@@ -14,7 +14,7 @@
                 <el-row>
                     <el-button type="primary" ><a href="https://mubu.com/doc/CAYihEYUS0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">git教程</a></el-button>
                     <el-button type="primary" ><a href="https://mubu.com/doc/a9YYeiV0Y0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">h5教程</a></el-button>
-                    <el-button type="primary" ><a href="https://mubu.com/doc/5c3Q2AIhuTP" target="_blank" style="text-indent:15em;color:#FFF;" round="true">c3教程</a></el-button>
+                    <el-button type="primary" ><a href="https://mubu.com/doc/1U8CWlk1GDP" target="_blank" style="text-indent:15em;color:#FFF;" round="true">c3教程</a></el-button>
                     <el-button type="primary" ><a href="https://mubu.com/doc/xGLYYDX2g0" target="_blank" style="text-indent:15em;color:#FFF;" round="true">JS教程</a></el-button>
                     <el-button type="primary" ><a href="https://mubu.com/doc/DMAXzFmpA3" target="_blank" style="text-indent:15em;color:#FFF;" round="true">前端学习路线</a></el-button>
                 </el-row>
@@ -60,6 +60,22 @@
         data() { //选项 / 数据
             return {
                 articleList:[{
+                    url:"https://mubu.com/doc/6eLdvKlqZGP",
+                    title:"正则表达式",
+                    month: 7,
+                    day: 19,
+                    cate_name:"技术文章",
+                    description:"关于验证各种输入是否合法等",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/LSH4mOGfwP",
+                    title:"html5语义化标签",
+                    month: 7,
+                    day: 18,
+                    cate_name:"技术文章",
+                    description:"整理的一篇关于关于h5的文章，建议弄清楚html再来看",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
                     url:"https://mubu.com/doc/2qhaTAKnanP",
                     title:"你真的了解回调吗",
                     month: 7,
