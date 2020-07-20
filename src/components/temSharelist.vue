@@ -60,6 +60,14 @@
         data() { //选项 / 数据
             return {
                 articleList:[{
+                    url:"https://mubu.com/doc/7OmXe0cL6WP",
+                    title:"Vue项目中优雅使用icon",
+                    month: 7,
+                    day: 20,
+                    cate_name:"技术文章",
+                    description:"关于icon的使用",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
                     url:"https://mubu.com/doc/6eLdvKlqZGP",
                     title:"正则表达式",
                     month: 7,
@@ -164,8 +172,8 @@
                     description:"原型与原型链，需要一定基础才能看懂。",
                     image:"https://13miki.cdn.bcebos.com/menhera%2F",
                 },{
-                    url:"https://mubu.com/doc/1IAVBN_1IiP",
-                    title:"前端模块化详解",
+                    url:"https://mubu.com/doc/2hp7ULPB8GP",
+                    title:"前端模块化",
                     month: 5,
                     day: 27,
                     cate_name:"技术文章",
