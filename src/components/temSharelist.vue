@@ -60,6 +60,38 @@
         data() { //选项 / 数据
             return {
                 articleList:[{
+                    url:"https://mubu.com/doc/xGLYYDX2g0",
+                    title:"JavaScript教程",
+                    month: 7,
+                    day: 24,
+                    cate_name:"编程语言",
+                    description:"JS教程，来自廖雪峰，菜鸟等，还有一些自己的想法，这篇文章会长时间更新。",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/M2HkG2WIOP",
+                    title:"vue权限路由实现方式总结",
+                    month: 7,
+                    day: 24,
+                    cate_name:"技术文章",
+                    description:"关于vue中权限是如何实现的",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/3RMtM8rDtIP",
+                    title:"js相等运算符与严格相等运算符",
+                    month: 7,
+                    day: 23,
+                    cate_name:"技术文章",
+                    description:"JS ==和===的区别",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/87cdLIYQmP",
+                    title:"JavaScript：彻底理解同步、异步和事件循环(Event Loop)",
+                    month: 7,
+                    day: 20,
+                    cate_name:"技术文章",
+                    description:"彻底理解同步、异步和事件循环",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
                     url:"https://mubu.com/doc/7OmXe0cL6WP",
                     title:"Vue项目中优雅使用icon",
                     month: 7,
@@ -186,14 +218,6 @@
                     day: 20,
                     cate_name:"技术文章",
                     description:"关于webpack一些使用心得。",
-                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
-                },{
-                    url:"https://mubu.com/doc/xGLYYDX2g0",
-                    title:"JavaScript教程",
-                    month: 5,
-                    day: 7,
-                    cate_name:"编程语言",
-                    description:"JS教程，来自廖雪峰，菜鸟等，还有一些自己的思路。",
                     image:"https://13miki.cdn.bcebos.com/menhera%2F",
                 },{
                     url:"https://mubu.com/doc/CAYihEYUS0",
