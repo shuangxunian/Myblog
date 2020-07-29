@@ -113,12 +113,6 @@
     margin:0;
 
 }
-.footBackHui .fcontainer{
-    /*z-index: 1;*/
-    /*position: absolute;*/
-    /*bottom:0;*/
-
-}
 .footBack p{
     margin:5px 0;
     z-index: 3;
@@ -160,7 +154,7 @@
 	margin:0 5px;
 }
 @-webkit-keyframes my-face {
-	2% {
+2% {
 	-webkit-transform:translate(0,1.5px) rotate(1.5deg);
 	-moz-transform:translate(0,1.5px) rotate(1.5deg);
 	-ms-transform:translate(0,1.5px) rotate(1.5deg);

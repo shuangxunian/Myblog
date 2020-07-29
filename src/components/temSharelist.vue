@@ -21,34 +21,68 @@
                 <hr>
             </div>
         </el-col>
-        <el-col :span="24" class="s-item tcommonBox" v-for="(item,index) in articleList" :key="'article'+index">
-            <span class="s-round-date">
-                <span class="month" v-html="item.month +'月'"></span>
-                <span class="day" v-html="item.day +'日'"></span>
-            </span>
+        <el-col :span="24" class="s-item tcommonBox">
             <header>
-                <h1>
-                    <a :href="item.url" target="_blank">
-                        {{item.title}}
-                    </a>
-                </h1>
-                <div class="ui label">
-                    <div>{{item.cate_name}}</div>
-                </div>
+                <h1>详细分类~</h1>
             </header>
-            <div class="article-content">
-                <p style="text-indent:2em;">
-                    {{item.description}}
-                </p>
-                <p  style="max-height:300px;overflow:hidden;text-align:center;">
-                    <img :src="item.image + (index + 1) + '.jpg'" alt="" width="296px" height="256px">
-                </p>
-            </div>
-            <div class="viewdetail">
-                <a class="tcolors-bg" :href="item.url" target="_blank">
-                    阅读全文>>
-                </a>
-            </div>
+            <br><br><br>
+            <el-collapse accordion>
+                <el-collapse-item title="技术文章">
+                    <div class="item_wyl" v-for="(item,index) in jishu" :key="index">
+                        <a :href="item.url">
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{item.title}}
+                        </a>
+                        <div class="data_wyl">
+                            {{item.data}}
+                        </div>
+                        <hr>
+                    </div>
+                </el-collapse-item>
+                <el-collapse-item title="编程语言">
+                    <div class="item_wyl" v-for="(item,index) in biancheng" :key="index">
+                        <a :href="item.url">
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{item.title}}
+                        </a>
+                        <div class="data_wyl">
+                            {{item.data}}
+                        </div>
+                        <hr>
+                    </div>
+                </el-collapse-item>
+                <el-collapse-item title="算法">
+                    <div class="item_wyl" v-for="(item,index) in suanfa" :key="index">
+                        <a :href="item.url">
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{item.title}}
+                        </a>
+                        <div class="data_wyl">
+                            {{item.data}}
+                        </div>
+                        <hr>
+                    </div>
+                </el-collapse-item>
+                <el-collapse-item title="面经">
+                    <div class="item_wyl" v-for="(item,index) in mianjing" :key="index">
+                        <a :href="item.url">
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{item.title}}
+                        </a>
+                        <div class="data_wyl">
+                            {{item.data}}
+                        </div>
+                        <hr>
+                    </div>
+                </el-collapse-item>
+                <el-collapse-item title="其它">
+                    <div class="item_wyl" v-for="(item,index) in qita" :key="index">
+                        <a :href="item.url">
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{item.title}}
+                        </a>
+                        <div class="data_wyl">
+                            {{item.data}}
+                        </div>
+                        <hr>
+                    </div>
+                </el-collapse-item>
+            </el-collapse>
         </el-col>
     </el-row>
 </template>
@@ -59,7 +93,50 @@
         name:'Share',
         data() { //选项 / 数据
             return {
+                //https://mubu.com/doc/38BDb8R8imP
+                //https://mubu.com/doc/6TBHXdZKfSP
+                jishu:[{
+                    url:"http://html.wangyuelin.xyz/001.html",
+                    title:"端口可以用6666吗",
+                    data:"2020年07月28日"
+                }],
+                biancheng:[{
+                    url:"http://html.wangyuelin.xyz/001.html",
+                    title:"端口可以用6666吗",
+                    data:"2020年01月01日"
+                }],
+                suanfa:[{
+                    url:"http://html.wangyuelin.xyz/001.html",
+                    title:"端口可以用6666吗",
+                    data:"2020年01月01日"
+                }],
+                mianjing:[{
+                    url:"http://html.wangyuelin.xyz/001.html",
+                    title:"端口可以用6666吗",
+                    data:"2020年01月01日"
+                }],
+                qita:[{
+                    url:"http://html.wangyuelin.xyz/000.html",
+                    title:"沈航新生问题汇总",
+                    data:"2020年07月28日"
+                }],
                 articleList:[{
+                    url:"https://mubu.com/doc/6TBHXdZKfSP",
+                    title:"端口可以用6666吗",
+                    month: 7,
+                    day: 24,
+                    cate_name:"技术文章",
+                    description:"关于端口的一个小问题",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
+                    url:"https://mubu.com/doc/38BDb8R8imP",
+                    title:"八大算法",
+                    month: 7,
+                    day: 24,
+                    cate_name:"技术文章",
+                    description:"过一遍常见算法",
+                    image:"https://13miki.cdn.bcebos.com/menhera%2F",
+                },{
                     url:"https://mubu.com/doc/xGLYYDX2g0",
                     title:"JavaScript教程",
                     month: 7,
@@ -304,7 +381,20 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
-
+.data_wyl{
+    height: 20px;
+    width: 100px;
+    float: right;
+    font-family: "宋体", "仿宋", sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgba(154,154,154);
+}
+.item_wyl{
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+}
     /*.sharelistBox .viewmore a:hover,.s-item .viewdetail a:hover{
         background: #48456C;
     }*/
