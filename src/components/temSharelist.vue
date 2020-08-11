@@ -79,6 +79,14 @@
                     url:"http://html.wangyuelin.xyz/001.html",
                     title:"端口可以用6666吗",
                     data:"2020年07月28日"
+                },{
+                    url:"http://html.wangyuelin.xyz/006.html",
+                    title:"前端开发书籍推荐",
+                    data:"2020年08月06日"
+                },{
+                    url:"http://html.wangyuelin.xyz/007.html",
+                    title:"var、let、const 区别",
+                    data:"2020年08月06日"
                 }],
                 biancheng:[{
                     url:"https://mubu.com/doc/xGLYYDX2g0",
@@ -92,8 +100,8 @@
                 }],
                 mianjing:[{
                     url:"http://html.wangyuelin.xyz/004.html",
-                    title:"端口可以用6666吗",
-                    data:"2020年01月01日"
+                    title:"前端知识点总结",
+                    data:"2020年08月01日"
                 }],
                 qita:[{
                     url:"http://html.wangyuelin.xyz/005.html",
