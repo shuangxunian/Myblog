@@ -64,6 +64,12 @@ export default {
                 "image"         :"https://q2.qlogo.cn/headimg_dl?dst_uin=443456429&spec=5",
                 "name"          :"CorsunChen",
                 "description"   :"这个人懒死了，什么也没留下来"
+            },
+            {
+                "url"           :"http://www.geeklife.top",
+                "image"         :"http://www.geeklife.top/logo.png",
+                "name"          :"极客生活",
+                "description"   :"好的技术没有围墙"
             }],
             //大神
              godlink: [{

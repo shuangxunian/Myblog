@@ -76,9 +76,13 @@
                 //https://mubu.com/doc/38BDb8R8imP
                 //https://mubu.com/doc/6TBHXdZKfSP
                 jishu:[{
-                    url:"http://html.wangyuelin.xyz/001.html",
-                    title:"端口可以用6666吗",
-                    data:"2020年07月28日"
+                    url:"http://html.wangyuelin.xyz/009.html",
+                    title:"js同步和异步的区别",
+                    data:"2020年08月14日"
+                },{
+                    url:"http://html.wangyuelin.xyz/008.html",
+                    title:"js的深拷贝和浅拷贝",
+                    data:"2020年08月12日"
                 },{
                     url:"http://html.wangyuelin.xyz/006.html",
                     title:"前端开发书籍推荐",
@@ -87,6 +91,10 @@
                     url:"http://html.wangyuelin.xyz/007.html",
                     title:"var、let、const 区别",
                     data:"2020年08月06日"
+                },{
+                    url:"http://html.wangyuelin.xyz/001.html",
+                    title:"端口可以用6666吗",
+                    data:"2020年07月28日"
                 }],
                 biancheng:[{
                     url:"https://mubu.com/doc/xGLYYDX2g0",
